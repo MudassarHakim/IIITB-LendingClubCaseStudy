@@ -1,52 +1,53 @@
-# Project Name
-> Outline a brief description of your project.
+## Lending club case study 
+### Description of project
+![Lending club](https://github.com/MudassarHakim/IIITB-LendingClubCaseStudy/blob/main/lending_club%20image.PNG)
+> Lending a loan is "risky" decision that a company takes .To avoid financial loss a company must choose to finance people cautiously.
+ - The study identifies the risky loan applicants who might end up being a "defaulter" and can significantly bring financial loss to the lending company.
+ - A rigourous analysis is done to identify those driving factors which helps us narrow down to pinpoint who might end up being a defaulter.
 
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
+* [Technologies Used](#technologies-used)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The borrowers who default cause the largest amount of loss to the lenders, reduces lender’s cash flow. Identifying those risky applicants helps in cutting down the amount of credit loss to the organization. The data set used is 'loan.csv'.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+* Borrowers with high interest and 10+ years of employment length.
+* Borrowers living on mortgage with loan amount greater than 12000.
+* Loan for debt consolidation, credit card, small business with loan amount greater than 12000.
+* For any loan amount provided with an average interest rate higher than 13%.
+* Loan provided for house purpose with average interest grater than 15%.
+* Loan provided with an average of 12.5% interest rate for 36months of tenure.
+* Loan provided with an average of 16.5% interest rate for 60months of tenure.
+* Average loan amount greater than 15000 with grade E, F, G.
+* Installments between 800 - 12000 with average interest greater than 15%.
+* Average interest rate of 17% with installment greater than 12000.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.7.6
+- NumPy - version 1.18.1
+- Pandas - version 1.2.3
+- Matplotlib - version 3.1.3
+- Seaborn - version 0.10.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was created as a case study required for Executive PG Programme in Machine Learning & AI - IIIT, Bangalore
+- References:
+    - [Reference - 1](https://www.lendingclub.com/loans/resource-center/what-to-do-if-declined)
+    - [Reference - 2](https://www.researchgate.net/publication/340395124_Project_Lending_Club_Data_Analysis).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Reach out the creators on,
+- Linkedin:
+    - [Mudassar Hakim](https://www.linkedin.com/in/mudassar-ahamer-hakim-281b8b9/)
+    - [Sanjay Hemanth](https://www.linkedin.com/in/sanjay-hemanth-108ba6267/)
